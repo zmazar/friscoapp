@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    
+    <CheckBoxPreference
+        android:title="Enable Notifications"
+        android:key="notify_tapped_beers"
+        android:summary="Enables notifications of newly tapped beers."
+        android:defaultValue="true"
+        />
+    <CheckBoxPreference
+        android:title="Enable Pint Night Notifications"
+        android:key="notify_pint_night"
+        android:summary="Enables notifications of upcoming pint nights."
+        android:defaultValue="true"
+        />    
+    <CheckBoxPreference
+        android:title="Enable Notification Vibrations"
+        android:key="notify_vibrations"
+        android:summary="Enables vibrations for Frisco Taphouse notifications."
+        android:defaultValue="true"
+        /> 
+    <CheckBoxPreference
+        android:title="Automatically clear new beers"
+        android:key="auto_clear_new_beers"
+        android:summary="Clear new beer designators on given time intervals."
+        android:defaultValue="true"
+        />
+
+</PreferenceScreen>
+

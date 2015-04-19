@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Frisco Taphouse</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_clear_beers">Clear New Beers</string>
+    <string name="action_mug_club">Mug Club</string>
+    <string name="action_confirm">Confirm Beers</string>
+    <string name="action_search">Confirm Beers</string>
+    <string name="fragment_title_0">Draft Beers</string>
+    <string name="fragment_title_1">Bottle Beers</string>
+    <string name="title_activity_beer_details">Beer Details</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_mugclub">Mug Club Book</string>
+    <string name="mugclub_confirm">Confirm Beers</string>
+    <string name="mugclub_confirm_code">Enter bartender confirmation code:</string>
+    <string name="mugclub_cancel">Cancel</string>
+    <string name="mugclub_add_to_book">Add to Beer Club Book</string>
+    <string name="coming_soon">Coming Soon!</string>
+    <string name="search_hint">Brewery/beer name</string>
+
+    <string-array name="auto_clear_options">
+        <item>12 Hours</item>
+        <item>24 Hours</item>
+        <item>48 Hours</item>
+        <item>Once a week</item>
+    </string-array>
+
+    <integer-array name="auto_clear_values">
+        <item>12</item>
+        <item>24</item>
+        <item>48</item>
+        <item>168</item>
+    </integer-array>
+
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Closer Drawer</string>
+
+    <string-array name="drawer_options">
+        <item>Columbia</item>
+        <item>Crofton</item>
+        <item>Mug Club Book</item>
+        <item>My Rated Beers</item>
+        <item>Settings</item>
+        <item>Change Default Location</item>
+        <item>About Frisco Taphouse</item>
+    </string-array>
+
+    <string name="beers_tapped_notification_title_template">Beers tapped: %1$s</string>
+    <string name="beers_tapped_notification_placeholder_text_template">You said %1$s and lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non enim magna. Morbi dictum, velit vel semper venenatis, magna odio volutpat velit, at ullamcorper nulla lacus sed turpis. Pellentesque vitae metus elit, nec tincidunt tellus. Integer sed nisl sem, ullamcorper ornare lacus. Duis ac mauris sed massa congue volutpat. Donec sed erat sit amet turpis viverra rhoncus sit amet nec magna. Donec lacinia ligula at libero volutpat volutpat nec nec tortor.</string>
+    <string name="action_share">Share</string>
+    <string name="action_reply">Reply</string>
+
+</resources>

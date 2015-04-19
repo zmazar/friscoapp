@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="#252525"
+    tools:context=".BeerDetailsActivity" >
+
+    <ImageView
+        android:id="@+id/beer_frisco_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/frisco_logo" 
+        />
+    
+    <TextView
+        android:id="@+id/beer_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:textColor="#ffffff"
+        />
+    
+    <TextView
+        android:id="@+id/beer_pour_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        />
+    <RatingBar
+        android:id="@+id/beer_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="1.0"
+        android:rating="0.0"
+        />
+    <CheckBox
+        android:id="@+id/mugclub_add_beer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#d3d3d3"
+        android:padding="10dp"
+        android:onClick="onAddToMugClub"
+        android:text="@string/mugclub_add_to_book" 
+        android:textColor="#111111"
+        android:textSize="8pt"
+        android:checked="false"
+        />
+</LinearLayout>
